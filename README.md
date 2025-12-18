@@ -1,46 +1,55 @@
-🛡️ Detecting and Mitigating Fake News: An AI Framework for Truth and Trust
+📝 Introduction
+This project describes the deployment and results of a machine learning process designed to identify whether news articles are REAL or FAKE. The study combines AI technology with human behavioral science to address four main goals:
 
 
-📖 Overview
-This project is more than a standard news classifier; it is a multi-disciplinary framework designed to bridge the gap between Machine Learning (AI) and Human Behavioral Science.
+Detection and Precision: Building a technical model optimized for accuracy.
 
-While the technical core is a high-precision pipeline for identifying REAL vs. FAKE news, the project’s ultimate goal is to understand human vulnerability to misinformation and explore whether users trust AI-driven truth scores more than human peer judgment.
 
-✨ Key Achievements
-High Precision: Achieved a 0.94 Precision score, which is critical for minimizing "False Censorship" where real news is wrongly flagged.
+User Education: Helping users improve their perception of honesty online.
 
-Model Accuracy: Reached an overall accuracy of 94.16% using a Passive Aggressive Classifier.
 
-Interpretability: Leveraged model feature weights to provide "Confidence Scores," helping users understand why an article was flagged (e.g., identifying sensationalist markers like "SHOCKING!" vs. "Official Statement").
+Vulnerability Analysis: Studying how different demographic groups react to various news forms.
 
-🛠️ Tech Stack
-Language: Python
 
-NLP: NLTK, TF-IDF Vectorization (captures linguistic context and word importance).
+Trust Assessment: Researching human trust in AI versus other humans regarding false news.
 
-Model: Passive Aggressive Classifier (optimized for high-speed text processing and large-scale data).
+⚙️ Methodology
 
-Data Handling: Pandas, NumPy.
+Data Source: A labeled dataset of news articles acquired from Kaggle.
 
-🧪 Methodology & Research Goals
-The project examines four pillars of digital trust:
 
-Detection & Precision: Refining the technical model for precision, optimized through user judgment cues.
+Preprocessing: Included lower-casing, removing URLs, and eliminating stop words.
 
-User Education: Developing a model for improving the perception of honesty among users by providing transparent confidence scores.
 
-Vulnerability Analysis: Studying the level of vulnerability of various demographic groups toward different forms of news.
+Model: Utilized a Passive Aggressive Classifier (PAC) for high efficiency in processing sparse text.
 
-Trust Assessment: Researching whether users exhibit higher trust in AI versus human experts when identifying false news on social media platforms.
 
-📂 Repository Structure
-detector_model.ipynb: End-to-end implementation including data cleaning, EDA, and training.
+Feature Engineering: Applied TF-IDF Vectorizer with bigram extraction.
 
-fake_news_detector_pipeline.pkl: The serialized "brain" of the AI, ready for production deployment.
+📊 Performance Analysis
+The model achieved high accuracy and reliability in testing:
 
-Detecting and Mitigating Fake News.docx: Full technical and behavioral research report.
+
+Accuracy: 94.16%.
+
+
+Precision (REAL): 0.94 (94% of articles labeled REAL were truly real).
+
+
+AUC Value: 0.98, ensuring the authenticity of AI trust markers.
+
+🔍 Key Findings (Linguistic Markers)
+The model identifies truthfulness based on specific weighted patterns:
+
+
+REAL News Indicators: Professional attribution words like "said" and "state".
+
+
+FAKE News Indicators: Sensationalistic or click-to-share terms like "October" and "share".
 
 🚀 Future Work
-Deployment: Integration of the model into a web service using the saved .pkl file.
 
-External Study Execution: Implementation of human surveys using the Confidence Score variable to complete the Trust and Vulnerability studies.
+Deployment: Integrating the model into a web service using the saved .pkl file.
+
+
+External Surveys: Implementing human studies to further explore Trust and Vulnerability variables.
