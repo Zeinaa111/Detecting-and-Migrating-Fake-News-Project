@@ -2,43 +2,43 @@
 This project shows the deployment and results of a machine learning process made to identify whether news articles are REAL or FAKE. The study has a mix of  AI technology with human behavioral m
 
 
-Detection and Precision: Building a technical model optimized for accuracy.
+**Detection and Precision:** Building a technical model optimized for accuracy.
 
 
-User Education: Helping users improve their perception of honesty online.
+**User Education:** Helping users improve their perception of honesty online.
 
 
-Vulnerability Analysis: Studying how different demographic groups react to various news forms.
+**Vulnerability Analysis:** Studying how different demographic groups react to various news forms.
 
 
-Trust Assessment: Researching human trust in AI versus other humans regarding false news.
+**Trust Assessment:** Researching human trust in AI versus other humans regarding false news.
 
 
 
 # **2- Methodology**
 
-Data Source: A labeled dataset of news articles acquired from Kaggle.
+**Data Source:** A labeled dataset of news articles acquired from Kaggle.
 
 
-Preprocessing: Included lower-casing, removing URLs, and eliminating stop words.
+**Preprocessing:** Included lower-casing, removing URLs, and eliminating stop words.
 
 
-Model: Utilized a Passive Aggressive Classifier (PAC) for high efficiency in processing sparse text.
+**Model:** Utilized a Passive Aggressive Classifier (PAC) for high efficiency in processing sparse text.
 
 
-Feature Engineering: Applied TF-IDF Vectorizer with bigram extraction.
+**Feature Engineering:** Applied TF-IDF Vectorizer with bigram extraction.
 
 
-Data Source: A labeled dataset of news articles acquired from Kaggle.
+**Data Source:** A labeled dataset of news articles acquired from Kaggle.
 
 
-Preprocessing: Included lower-casing, removing URLs, and eliminating stop words.
+**Preprocessing:** Included lower-casing, removing URLs, and eliminating stop words.
 
 
-Model: Utilized a Passive Aggressive Classifier (PAC) for high efficiency in processing sparse text.
+**Model:** Utilized a Passive Aggressive Classifier (PAC) for high efficiency in processing sparse text.
 
 
-Feature Engineering: Applied TF-IDF Vectorizer with bigram extraction.
+**Feature Engineering:** Applied TF-IDF Vectorizer with bigram extraction.
 
 # **3- Performance Analysis**
 The model achieved high accuracy and reliability in testing:
