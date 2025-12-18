@@ -13,7 +13,9 @@ Vulnerability Analysis: Studying how different demographic groups react to vario
 
 Trust Assessment: Researching human trust in AI versus other humans regarding false news.
 
-2- Methodology
+
+
+# **2- Methodology**
 
 Data Source: A labeled dataset of news articles acquired from Kaggle.
 
@@ -26,7 +28,19 @@ Model: Utilized a Passive Aggressive Classifier (PAC) for high efficiency in pro
 
 Feature Engineering: Applied TF-IDF Vectorizer with bigram extraction.
 
-3- Performance Analysis
+
+Data Source: A labeled dataset of news articles acquired from Kaggle.
+
+
+Preprocessing: Included lower-casing, removing URLs, and eliminating stop words.
+
+
+Model: Utilized a Passive Aggressive Classifier (PAC) for high efficiency in processing sparse text.
+
+
+Feature Engineering: Applied TF-IDF Vectorizer with bigram extraction.
+
+# **3- Performance Analysis**
 The model achieved high accuracy and reliability in testing:
 
 
@@ -38,7 +52,7 @@ Precision (REAL): 0.94 (94% of articles labeled REAL were truly real).
 
 AUC Value: 0.98, ensuring the authenticity of AI trust markers.
 
-4- Key Findings (Linguistic Markers)
+# **4- Key Findings (Linguistic Markers)**
 The model identifies truthfulness based on specific weighted patterns:
 
 
@@ -47,7 +61,7 @@ REAL News Indicators: Professional attribution words like "said" and "state".
 
 FAKE News Indicators: Sensationalistic or click-to-share terms like "October" and "share".
 
-5- Future Work
+# **5- Future Work**
 
 Deployment: Integrating the model into a web service using the saved .pkl file.
 
